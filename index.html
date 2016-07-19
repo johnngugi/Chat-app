@@ -15,28 +15,23 @@
   </div>
 
   <div class="row">
-    <div class="large-6 large-centered">
+    <div class="large-6 columns left">
       <form class="form1">
-        <input type="text" />
+        <textarea name="name" rows="8" cols="40" id="input"></textarea>
+        <input type="submit" onclick="myFunction()">
       </form>
     </div>
+    <div class="large-6 columns right">
+        <textarea name="name" rows="8" cols="40" id="output"></textarea>
     </div>
-
-    <div class="row messages">
-      <div class="large-4 columns">
-        <form class="form2">
-          <input type="text" id="input" />
-        </form>
-      </div>
-    </div>
+  </div>
 
 
-<div class="output">
-  <p></p>
-</div>
+<script src="js/jquery-3.0.0.js"></script>
+<script src="js/script.js"></script>
+<script>
+    $(document).foundation();
+  </script>
 
-
-
-     <script src="js/script.js"></script>
 </body>
 </html>
