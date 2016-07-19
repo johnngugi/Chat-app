@@ -1,13 +1,10 @@
 body {
   background: #0066ff;
 }
-.form1 {
-  background: #595959;
-  margin-top: 30%;
-  padding: 20%;
+.left {
+  background:
 }
-.form2 {
-}
-.messages {
-  margin-top: 5%;
+.right {
+  background: #4d4d4d;
+  height: 100%;
 }
